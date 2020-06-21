@@ -11,28 +11,30 @@ vertical-align:baseline;
 article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {
 display:block;
 }
-
+//background colour
 html, title, body {background: #293241; font-family: 'arial', helvetica, arial, sans-serif; font-size: 16px; color: #f2cc8f;}
 
 .clear {clear: both;}
 
+//font colour for paragraphs
 p {
 	font-size: 1em;
-	line-height: 1.4em;
-	margin-bottom: 20px;
-	color: #faf3dd;
+	line-height: 1.5em;
+	margin-bottom: 25px;
+	color: #a6b1e1;
 }
-
+//middle colour panel
 #profile {
 	width: 90%;
-	max-width: 100px;
+	max-width: 1200px;
 	background: #3d5a80;
-	margin: 30px auto;
+	margin: 60px auto;
 }
-
+//orange border lines
+//very background colour
 .mainDetails {
 	padding: 25px 35px;
-	border-bottom: 2px solid #ee6c4d;
+	border-bottom: 2px solid #6b818c;
 	background: #293241;
 }
 
@@ -50,12 +52,12 @@ p {
 }
 
 #mainArea {
-	padding: 0 40px;
+	padding: 0 60px;
 }
 
 #me {
 	width: 9.5%;
-	float: right;
+	float: left;
 	margin-right: 30px;
 }
 
@@ -110,7 +112,7 @@ p {
 
 //this is the lines around borders & boxes
 section {
-	border-top: 1px solid #ee6c4d;
+	border-top: 1px solid #6b818c;
 	padding: 20px 0 0;
 }
 
@@ -119,7 +121,7 @@ section:first-child {
 }
 
 section:last-child {
-	padding: 10px 0 10px;
+	padding: 20px 0 10px;
 }
 
 .sectionTitle {
@@ -142,7 +144,7 @@ section:last-child {
 }
 
 .sectionTitle img {
-	width: 50%;
+	width: 100%;
 }
 
 .sectionContent h2 {
@@ -182,7 +184,7 @@ section:last-child {
 		float: none;
 		width: 100%;
 		text-align: center;
-	}
+	}  
 	
 	.sectionTitle, .sectionContent {
 		float: none;
