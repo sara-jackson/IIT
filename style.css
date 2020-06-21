@@ -20,7 +20,7 @@ p {
 	font-size: 1em;
 	line-height: 1.4em;
 	margin-bottom: 20px;
-	color: #f4f1de;
+	color: #faf3dd;
 }
 
 #profile {
@@ -32,8 +32,8 @@ p {
 
 .mainDetails {
 	padding: 25px 35px;
-	border-bottom: 2px solid #3d405b;
-	background: #e07a5f;
+	border-bottom: 2px solid #ee6c4d;
+	background: #293241;
 }
 
 #name h1 {
@@ -105,12 +105,12 @@ p {
 }
 
 #contactDetails ul li a:hover { 
-	color: #666666;
+	color: #e0fbfc;
 }
 
 //this is the lines around borders & boxes
 section {
-	border-top: 1px solid #f2cc8f;
+	border-top: 1px solid #ee6c4d;
 	padding: 20px 0 0;
 }
 
@@ -152,7 +152,7 @@ section:last-child {
 }
 
 .sectionContent img {
-	border: 2px solid #f2cc8f;
+	border: 2px solid #e0fbfc;
 }
 
 .subDetails {
