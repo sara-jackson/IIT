@@ -12,7 +12,7 @@ article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {
 display:block;
 }
 
-html, body {background: ##996666; font-family: 'arial', helvetica, arial, sans-serif; font-size: 16px; color: #666666;}
+html, title, body {background: #3d405b; font-family: 'arial', helvetica, arial, sans-serif; font-size: 16px; color: #f2cc8f;}
 
 .clear {clear: both;}
 
@@ -20,20 +20,20 @@ p {
 	font-size: 1em;
 	line-height: 1.4em;
 	margin-bottom: 20px;
-	color: #999999;
+	color: #f4f1de;
 }
 
 #profile {
 	width: 90%;
 	max-width: 800px;
-	background: #cc9999;
+	background: #3d405b;
 	margin: 30px auto;
 }
 
 .mainDetails {
 	padding: 25px 35px;
-	border-bottom: 2px solid #5BC0BE;
-	background: #3A506B;
+	border-bottom: 2px solid #3d405b;
+	background: #e07a5f;
 }
 
 #name h1 {
@@ -54,16 +54,16 @@ p {
 }
 
 #me {
-	width: 12.5%;
-	float: left;
+	width: 9.5%;
+	float: right;
 	margin-right: 30px;
 }
 
 #me img {
-	width: 50%;
+	width: 15%;
 	height: auto;
-	-webkit-border-radius: 25px;
-	border-radius: 25px;
+	-webkit-border-radius: 15px;
+	border-radius: 15px;
 }
 
 #name {
@@ -71,7 +71,7 @@ p {
 }
 
 #contactDetails {
-	float: right;
+	float: left;
 }
 
 #contactDetails ul {
@@ -82,11 +82,11 @@ p {
 
 #contactDetails ul li {
 	margin-bottom: 3px;
-	color: #999999;
+	color: #81b29a;
 }
 
 #contactDetails ul li a, a[href^=tel] {
-	color: #999999; 
+	color: #81b29a; 
 	text-decoration: none;
 	-webkit-transition: all .3s ease-in;
 	-moz-transition: all .3s ease-in;
@@ -101,7 +101,7 @@ p {
 
 
 section {
-	border-top: 1px solid #5BC0BE;
+	border-top: 1px solid #f2cc8f;
 	padding: 20px 0 0;
 }
 
@@ -115,19 +115,19 @@ section:last-child {
 
 .sectionTitle {
 	float: left;
-	width: 25%;
+	width: 20%;
 }
 
 .sectionContent {
 	float: right;
-	width: 72.5%;
+	width: 59.5%;
 }
 
 .sectionTitle h1 {
 	font-family: 'arial', Helvetica, Arial, sans-serif;
 	font-style: italic;
 	font-size: 1.5em;
-	color: #999999;
+	color: #3d405b;
 }
 
 .sectionTitle img {
@@ -141,7 +141,7 @@ section:last-child {
 }
 
 .sectionContent img {
-	border: 2px solid #50AAA9;
+	border: 2px solid #f2cc8f;
 }
 
 .subDetails {
