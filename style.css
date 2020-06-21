@@ -68,7 +68,7 @@ p {
 
 #Job img {
 
-	width: 100%;
+	width: 50%;
 	height: auto;
 	-webkit-border-radius: 20px;
 	border-radius: 20px;
@@ -76,17 +76,17 @@ p {
 }
 
 #name {
-	float: left;
+	float: right;
 }
 
 #contactDetails {
-	float: left;
+	float: right;
 }
 
 #contactDetails ul {
 	list-style-type: none;
 	font-size: 0.9em;
-	margin-top: 5px;
+	margin-top: 1px;
 }
 
 #contactDetails ul li {
@@ -108,7 +108,7 @@ p {
 	color: #666666;
 }
 
-
+//this is the lines around borders & boxes
 section {
 	border-top: 1px solid #f2cc8f;
 	padding: 20px 0 0;
@@ -133,6 +133,8 @@ section:last-child {
 }
 
 .sectionTitle h1 {
+	float: left;
+	width: 20%;
 	font-family: 'arial', Helvetica, Arial, sans-serif;
 	font-style: italic;
 	font-size: 1.5em;
@@ -140,7 +142,7 @@ section:last-child {
 }
 
 .sectionTitle img {
-	width: 100%;
+	width: 50%;
 }
 
 .sectionContent h2 {
@@ -160,12 +162,12 @@ section:last-child {
 
 }
 
-@media all and (min-width: 602px) and (max-width: 800px) {
+@media all and (min-width: 302px) and (max-width: 400px) {
 	#me {
 		display: none;
 }
 
-@media all and (max-width: 601px) {
+@media all and (max-width: 301px) {
 	#profile {
 		width: 95%;
 		margin: 10px auto;
@@ -193,7 +195,7 @@ section:last-child {
 	}
 }
 
-@media all and (max-width: 480px) {
+@media all and (max-width: 280px) {
 	.mainDetails {
 		padding: 15px 15px;
 	}
