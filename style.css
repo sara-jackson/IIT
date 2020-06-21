@@ -21,7 +21,7 @@ p {
 	color: #f7fff7;
 }
 
-#profile {
+#cv {
 	width: 90%;
 	max-width: 800px;
 	background: #14213d;
@@ -85,12 +85,12 @@ p {
 
 #contactDetails ul {
 	list-style-type: none;
-	font-size: 1.5em;
+	font-size: 1em;
 	margin-top: 0.5px;
 }
 
 #contactDetails ul li {
-	margin-bottom: 3px;
+	margin-bottom: 2px;
 	color: #272727;
 }
 
@@ -123,7 +123,7 @@ section:last-child {
 
 .sectionTitle {
 	float: left;
-	width: 30%;
+	width: 25%;
 }
 
 .sectionContent {
@@ -167,7 +167,7 @@ section:last-child {
 }
 
 @media all and (max-width: 601px) {
-	#profile {
+	#cv {
 		width: 95%;
 		margin: 10px auto;
 		min-width: 280px;
@@ -213,7 +213,7 @@ section:last-child {
 }
 
 @media print {
-    #profile {
+    #cv {
         width: 100%;
     }
 }
