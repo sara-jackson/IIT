@@ -11,7 +11,7 @@ vertical-align:baseline;
 article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {
 display:block;
 }
-html, title, body {background: #ff6b6b; font-family: 'arial', helvetica, arial, sans-serif; font-size: 16px; color: #1a535c;}
+html, title, body {background: #1a535c; font-family: 'arial', helvetica, arial, sans-serif; font-size: 16px; color: #63666a;}
 
 .clear {clear: both;}
 
@@ -80,19 +80,19 @@ p {
 }
 
 #contactDetails {
-	float: left;
+	float: right;
 }
 
 
 #contactDetails ul {
 	list-style-type: none;
-	font-size: 0.9em;
-	margin-top: 1px;
+	font-size: 1.5em;
+	margin-top: 0.5px;
 }
 
 #contactDetails ul li {
 	margin-bottom: 3px;
-	color: #81b29a;
+	color: #272727;
 }
 
 #contactDetails ul li a, a[href^=tel] {
@@ -136,7 +136,7 @@ section:last-child {
 	font-family: 'arial', Helvetica, Arial, sans-serif;
 	font-style: italic;
 	font-size: 2em;
-	color: #565254;
+	color: #d0cfcf;
 }
 
 .sectionTitle img {
@@ -161,25 +161,20 @@ section:last-child {
 }
 
 @media all and (min-width: 602px) and (max-width: 800px) {
-	#headshot {
+	#me {
 		display: none;
 	}
-	
-	.keySkills {
-	-moz-column-count:2;
-	-webkit-column-count:2;
-	column-count:2;
-	}
+
 }
 
 @media all and (max-width: 601px) {
-	#cv {
+	#profile {
 		width: 95%;
 		margin: 10px auto;
 		min-width: 280px;
 	}
 	
-	#headshot {
+	#me {
 		display: none;
 	}
 	
@@ -219,7 +214,7 @@ section:last-child {
 }
 
 @media print {
-    #cv {
+    #profile {
         width: 100%;
     }
 }
