@@ -12,7 +12,7 @@ article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {
 display:block;
 }
 
-html, title, body {background: #3d405b; font-family: 'arial', helvetica, arial, sans-serif; font-size: 16px; color: #f2cc8f;}
+html, title, body {background: #293241; font-family: 'arial', helvetica, arial, sans-serif; font-size: 16px; color: #f2cc8f;}
 
 .clear {clear: both;}
 
@@ -26,7 +26,7 @@ p {
 #profile {
 	width: 90%;
 	max-width: 800px;
-	background: #3d405b;
+	background: #3d5a80;
 	margin: 30px auto;
 }
 
