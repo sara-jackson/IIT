@@ -11,32 +11,32 @@ vertical-align:baseline;
 article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {
 display:block;
 }
-html, title, body {background: #293241; font-family: 'arial', helvetica, arial, sans-serif; font-size: 16px; color: #f2cc8f;}
+html, title, body {background: #e07a5f; font-family: 'arial', helvetica, arial, sans-serif; font-size: 16px; color: #f2cc8f;}
 
 .clear {clear: both;}
 
 p {
 	font-size: 1em;
-	line-height: 1.5em;
-	margin-bottom: 25px;
-	color: #a6b1e1;
+	line-height: 1.4em;
+	margin-bottom: 20px;
+	color: #f4f1de;
 }
 
 #profile {
 	width: 90%;
 	max-width: 1200px;
-	background: #3d5a80;
+	background: #3d405b;
 	margin: 60px auto;
 }
 
 .mainDetails {
 	padding: 25px 35px;
-	border-bottom: 2px solid #6b818c;
-	background: #293241;
+	border-bottom: 2px solid #3d405b;
+	background: #e07a5f;
 }
 
 #name h1 {
-	font-size: 2.5em;
+	font-size: 2.75em;
 	font-weight: 700;
 	font-family: 'arial', Helvetica, Arial, sans-serif;
 	margin-bottom: -6px;
@@ -54,7 +54,7 @@ p {
 
 #me {
 	width: 9.5%;
-	float: left;
+	float: right;
 	margin-right: 30px;
 }
 
@@ -94,7 +94,7 @@ p {
 }
 
 #contactDetails ul li a, a[href^=tel] {
-	color: #81b29a; 
+	color: #272727; 
 	text-decoration: none;
 	-webkit-transition: all .3s ease-in;
 	-moz-transition: all .3s ease-in;
@@ -104,11 +104,12 @@ p {
 }
 
 #contactDetails ul li a:hover { 
-	color: #e0fbfc;
+	color: #baa898;
 }
 
+//this is the lines around borders & boxes
 section {
-	border-top: 1px solid #6b818c;
+	border-top: 1px solid #f4f1de;
 	padding: 20px 0 0;
 }
 
@@ -117,7 +118,7 @@ section:first-child {
 }
 
 section:last-child {
-	padding: 20px 0 10px;
+	padding: 10px 0 10px;
 }
 
 .sectionTitle {
@@ -131,12 +132,10 @@ section:last-child {
 }
 
 .sectionTitle h1 {
-	float: left;
-	width: 20%;
 	font-family: 'arial', Helvetica, Arial, sans-serif;
 	font-style: italic;
-	font-size: 1.5em;
-	color: #f4f1de;
+	font-size: 2em;
+	color: #565254;
 }
 
 .sectionTitle img {
@@ -150,7 +149,7 @@ section:last-child {
 }
 
 .sectionContent img {
-	border: 2px solid #e0fbfc;
+	border: 2px solid #f2cc8f;
 }
 
 .subDetails {
@@ -160,12 +159,12 @@ section:last-child {
 
 }
 
-@media all and (min-width: 302px) and (max-width: 400px) {
+@media all and (min-width: 602px) and (max-width: 800px) {
 	#me {
 		display: none;
 }
 
-@media all and (max-width: 301px) {
+@media all and (max-width: 601px) {
 	#profile {
 		width: 95%;
 		margin: 10px auto;
@@ -180,7 +179,7 @@ section:last-child {
 		float: none;
 		width: 100%;
 		text-align: center;
-	}  
+	}
 	
 	.sectionTitle, .sectionContent {
 		float: none;
@@ -193,7 +192,7 @@ section:last-child {
 	}
 }
 
-@media all and (max-width: 280px) {
+@media all and (max-width: 480px) {
 	.mainDetails {
 		padding: 15px 15px;
 	}
