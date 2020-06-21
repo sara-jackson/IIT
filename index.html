@@ -1,174 +1,211 @@
-<!DOCTYPE html>
-<html>
-<head>
-<title>Sara Jackson - myProfile</title>
 
-<meta name="viewport" content="width=device-width"/>
-<meta name="description" content="myProfile for Sara Jackson."/>
-<meta charset="UTF-8"> 
+html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video {
+border:0;
+font:arial;
+font-size:100%;
+margin:0;
+padding:0;
+vertical-align:baseline;
+}
 
-<link type="text/css" rel="stylesheet" href="style.css">
-<link href='http://fonts.googleapis.com/css?family=arial:400,700|arial:400,300' rel='stylesheet' type='text/css'>
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {
+display:block;
+}
+html, title, body {background: #f2cc8f; font-family: 'arial', helvetica, arial, sans-serif; font-size: 16px; color: #f2cc8f;}
+
+.clear {clear: both;}
+
+p {
+	font-size: 1em;
+	line-height: 1.5em;
+	margin-bottom: 20px;
+	color: #f4f1de;
+}
+
+#profile {
+	width: 90%;
+	max-width: 1200px;
+	background: #3d405b;
+	margin: 60px auto;
+}
+
+.mainDetails {
+	padding: 25px 35px;
+	border-bottom: 2px solid #3d405b;
+	background: #e07a5f;
+}
+
+#name h1 {
+	font-size: 2.75em;
+	font-weight: 700;
+	font-family: 'arial', Helvetica, Arial, sans-serif;
+	margin-bottom: -6px;
+}
+
+#name h2 {
+	font-size: 2em;
+	margin-left: 2px;
+	font-family: 'arial', Helvetica, Arial, sans-serif;
+}
+
+#mainArea {
+	padding: 0 60px;
+}
+
+#me {
+	width: 9.5%;
+	float: right;
+	margin-right: 30px;
+}
+
+#me img {
+	width: 100%;
+	height: auto;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+}
+
+#Job img {
+
+	width: 50%;
+	height: auto;
+	-webkit-border-radius: 20px;
+	border-radius: 20px;
+	float: center;
+
+}
+
+#name {
+	float: left;
+}
+
+#contactDetails {
+	float: left;
+}
 
 
-</head>
-<body id="top">
-<div id="profile">
-	<div class="mainDetails">
-			<img src="me.jpg" alt="Image" height="200" width="200"> />
-		</div>
+#contactDetails ul {
+	list-style-type: none;
+	font-size: 0.9em;
+	margin-top: 1px;
+}
+
+#contactDetails ul li {
+	margin-bottom: 3px;
+	color: #81b29a;
+}
+
+#contactDetails ul li a, a[href^=tel] {
+	color: #272727; 
+	text-decoration: none;
+	-webkit-transition: all .3s ease-in;
+	-moz-transition: all .3s ease-in;
+	-o-transition: all .3s ease-in;
+	-ms-transition: all .3s ease-in;
+	transition: all .3s ease-in;
+}
+
+#contactDetails ul li a:hover { 
+	color: #baa898;
+}
+
+section {
+	border-top: 1px solid #f4f1de;
+	padding: 20px 0 0;
+}
+
+section:first-child {
+	border-top: 0;
+}
+
+section:last-child {
+	padding: 10px 0 10px;
+}
+
+.sectionTitle {
+	float: left;
+	width: 30%;
+}
+
+.sectionContent {
+	float: right;
+	width: 72.5%;
+}
+
+.sectionTitle h1 {
+	font-family: 'arial', Helvetica, Arial, sans-serif;
+	font-style: italic;
+	font-size: 2em;
+	color: #565254;
+}
+
+.sectionTitle img {
+	width: 100%;
+}
+
+.sectionContent h2 {
+	font-family: 'arial', Helvetica, Arial, sans-serif;
+	font-size: 1.5em;
+	margin-bottom: -2px;
+}
+
+.sectionContent img {
+	border: 2px solid #f2cc8f;
+}
+
+.subDetails {
+	font-size: 0.8em;
+	font-style: italic;
+	margin-bottom: 3px;
+
+}
+
+@media all and (min-width: 250px) and (max-width: 600px) {
+	#me {
+		display: right;
+}
+
+@media all and (max-width: 600px) {
+	#profile {
+		width: 95%;
+		margin: 10px auto;
+		min-width: 250px;
+	}
 	
-	    <div id="name">
-	    	  <h1>Sara Jackson</h1>
-			  <h2>eProfile</h2>
+	#me {
+		display: right;
+	}
+	
+	#name, #contactDetails {
+		float: left;
+		width: 100%;
+		text-align: center;
+	}
+	
+	.sectionTitle, .sectionContent {
+		float: none;
+		width: 100%;
+	}
+	
+	.sectionTitle {
+		margin-left: -2px;
+		font-size: 1.25em;
+	}
+}
 
-
-	    </div>
-	    
-	    <div id="contactDetails">	   	
-			<ul>
-				<li>#: s3866798</li>
-				<li>e: <a href="mailto:s3866798@student.rmit.edu.au" target="_blank">student@rmit.edu.au</a></li>
-				<li>w: <a href="http://www.github.com" target=>www.github.com</a></li>
-			</ul>
-		<section>
-			<article>
-				<div class="sectionTitle">
-					<h1>Personal Information</h1>
-				</div>
-				
-				<div class="sectionContent">
-					<p>I am an Australian citizen living and working in North Queensland. The highest education I have completed is Grade 12, however I am currently working towards my Bachelor of Information Technology. For the past 2 years I have been living and working in London, which was an incredible experience and opened my eyes to the exciting world of travel. Aside from travel, I enjoy rollerblading with my young nieces and nephews and spending time with my family in general.</p>
-				</div>
-			</article>
-			<div class="clear"></div>
-		</section>
-		
-		<section>
-			<article>
-				<div class="sectionTitle">
-					<h1>Interest in IT</h1>
-				</div>
-
-                <div class="sectionContent">
-				    <h2>What is your interest in IT?</h2>
-					<p>My interest in IT stems from a young age, as I always appreciated using the computer in school. I can recall starting out for the first time learning how to touch type, using the ‘Mario Touch Typing’ program. At the time I thought it was so much fun (I was also very competitive) so I quickly excelled. Little did I know that this was just the tip of the iceberg when it came to the world of computers. My first computer studies teacher was Mr. Hobson, coincidently his wife was also my maths teacher. I did not like Maths at the time, however I remember this changing by the end of the year. It is funny how certain people have a way in which they can teach you to find an appreciation for subjects that you didn’t think you could. Mr Hobson provided me with a great introduction which peaked my interest, this was evident in my career, although finance based, my position always incorporated a strong amount of IT interaction.  </p>
-
-					<h2>Why did you choose to come to RMIT?</h2>
-					<p>After hours of back and forth between degrees and career objectives, I finally landed on my Bachelor of Information Technology. I believe that by completing this degree, I will provide myself with the greatest opportunity to progress and succeed in my career. As I am still working full time whilst studying, RMIT offered the option of completing the course subjects on a personal timeline, without having to enrol and be accepted, which suited my needs.  </p>
-
-					<h2>What do you expect to learn during your studies?</h2>
-					<p>Upon completion of my studies, I hope that I have fulfilled the requirements of the course and leave with my Bachelor of Information Technology. Although receiving my Bachelor’s degree is the ultimate goal, I do hope that my understanding of all material is sound and I can confidently move into the IT sector in a professional capacity.  </p>
-
-				</div>
-			</article>
-			<div class="clear"></div>
-		</section>
-		
-	<section>
-			<article>
-				<div class="sectionTitle">
-					<h1>Ideal Job</h1>
-				</div>
-
-				<div class="sectionContent">
-				    <h2>Job Title</h2>
-					<p>Solution Architect</p> 
-
-					<h2>Description</h2>
-
-					<p> <a href="https://www.seek.com.au/job/50079821?type=standout#searchRequestToken=c9501391-9a03-4658-b348-5876e870c725" target=>www.seek.com.au</a></p>
-
-                    <img src=Job.jpg>
-
-                    <h2>Position Description</h2>
-
-					<p>Working to develop and enhance digital capabilities across the business architecture. Problem solving and delivering solutions, whilst engaging with stakeholders and team leaders to continuously improve business efficiency. The opportunity to work in this type of role that envelops system integration, application architecture as well as software development is very appealing to me. Delivering complex projects and solving challenging problems instigates a high functioning and rewarding working environment. </p>
-
-					<h2>What are the role requirements?</h2>
-
-					<p>Eligibility for this role would include a degree qualification in a technical field as well as experience in a number of technical functions. Other key requirements include a strong understanding of software development and methodologies, enterprise application designs and the ability to solve technical problems. Technical ability aside, the candidate should also possess strong communication, presentation and negotiation skills in order to deal with customers and stakeholders. Finally, an essential skill is understanding how to best deliver solutions to effectively fill business needs. </p>
-
-					<h2>What role requirements do I already have?</h2>
-
-					<p>My current skillset and experience would allow me to confidently communicate and negotiate with stakeholders. Business improvement solutions and understanding business needs is a skillset that I have developed over my career and would assist in this role. Although I have not worked within the technical aspect of system integration, I have been involved in this process from a systems accountant and administrator perspective which provides great insight to the project and its requirements. My previous experience working in a high functioning environment with responsibility and deadlines, ensures that I have the ability to deliver outcomes. </p>
-
-					<h2>How do I plan to obtain this role?</h2>
-
-					<p>In order to gain the relevant experience and skills required to become a desired candidate for the role of System Architect, I need to complete my degree. Obtaining my Bachelor of Information Technology will provide exposure to various aspects and functions of IT, which will enhance my knowledge base and skillset. I am also currently working in a role that will allow for future flexibility, learning and experience in the IT sector as the business will look to move onto a new system in the coming year. This is experience will allow for the opportunity to discuss business needs, improvement and recommend solutions. </p>
-				</article>
-				
-			</div>
-			<div class="clear"></div>
-		</section>
-
-<section>
-			<article>
-				<div class="sectionTitle">
-					<h1>Personal Profile</h1>
-				</div>
-				
-				<div class="sectionContent">
-			    <h2>Results of online Myers-Briggs test:</h2>
-				<p> <img src="MB 1.jpg" alt="Personality Profile Test" /> </p>
-			
-			    <p><img src="MB 2.jpg" alt="Personality Profile Test" /></p>
-
-				<h2>Results of online learning style test</h2>
-				<p><img src="LS1.jpg" alt="Learning Style Test" /></p>
-
-                <h2>Results of online creativity test</h2>
-				<p><img src="C1.jpg" alt="Creativity Test" /> </p>
-
-				<h2>What do the results of these tests mean to me?</h2>
-				<p>Having a program break down the results and explanations for each section displaying my capabilities, provides self-awareness. This information can now be used as a tool to influence my way of thinking as an individual and also in a team environment. As long as you provide honest responses to the questions, the outcome should not be overly surprising or confronting.  </p>
-				<h2>How do I think these results may influence my behaviour in a team?</h2>
-				<p>My learning behaviour is tactical; however, this exercise has shown me alternative ways of learning that other team members could potentially test for. Thus, it is important to remember that everyone is different. Ideally, I think the personality test shows that I can work well with others and potentially bring out the best in my team members. This is mind, I hope to bring enthusiasm and ideas to the group and maybe a little bit of humour. </p>
-				<h2>How should I take this into account when forming a team?</h2>
-				<p>In a general work setting, I do not mind taking the lead or at least involving myself in the process. Critically on my part, I know that I can also tend to take control over low functioning areas (if want something done right, do it yourself attitude), which is not always the best approach. However, I also like to think of myself as a team player and I think regardless of the circumstances I would happily accept any individual into my team. In the real world, you don’t always get to pick and choose your team members so it is important to learn how to collaborate with all learning and personality types. </p>
-					
-				</article></p>
-		
-		<section>
-			<div class="sectionTitle">
-				<h1>Project Idea</h1>
-			</div>
-			
-			<div class="sectionContent">
-				<article>
-					<h2>Overview</h2>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ultricies massa et erat luctus hendrerit. Curabitur non consequat enim.</p>
-				</article>
-
-				<article>
-					<h2>Motivation</h2>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ultricies massa et erat luctus hendrerit. Curabitur non consequat enim.</p>
-				</article>
-				
-				<article>
-					<h2>Description</h2>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dolor metus, interdum at scelerisque in, porta at lacus. Maecenas dapibus luctus cursus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ultricies massa et erat luctus hendrerit. Curabitur non consequat enim. Vestibulum bibendum mattis dignissim. Proin id sapien quis libero interdum porttitor.</p>
-				</article>
-
-				<article>
-					<h2>Tools and Technologies</h2>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ultricies massa et erat luctus hendrerit. Curabitur non consequat enim. Vestibulum bibendum mattis dignissim. Proin id sapien quis libero interdum porttitor.</p>
-				</article>
-
-				<article>
-					<h2>Skills Required</h2>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ultricies massa et erat luctus hendrerit. Curabitur non consequat enim.</p>
-				</article>
-
-				<article>
-					<h2>Outcome</h2>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ultricies massa et erat luctus hendrerit. Curabitur non consequat enim.</p>
-				</article>
-			</div>
-			<div class="clear"></div>
-		</section>
-		
-	</div>
-</div>
-</body>
-</html>
+@media all and (max-width: 480px) {
+	.mainDetails {
+		padding: 15px 15px;
+	}
+	
+	section {
+		padding: 15px 0 0;
+	}
+	
+	#mainArea {
+		padding: 0 25px;
+	}
+	
+	#name h1 {
+		line-height: .8em;
+		margin-bottom: 4px;
